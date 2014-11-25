@@ -8,9 +8,20 @@ body {
 }
 
 /* This is a comment, by the way */
-p  {
+/*p  {
     line-height: 21px;  
-}  
+}  */
+
+
+p {
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
+}
+
  
 h1 {
     font-size: 2em;
