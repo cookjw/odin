@@ -17,6 +17,7 @@ div div {background: #A4CA39; position: relative;}
   background: #fff;
   width: 20px; height: 20px;
   border-radius: 10px;
+  
   position: absolute; top: 42px;
   }
   
@@ -49,7 +50,7 @@ transform: rotate(-30deg);
 
 .l_arm, .r_arm, .l_leg, .r_leg{
 width: 50px; position: absolute;
-transition: all 0.1s ease-in;
+-webkit-transition: all 0.1s ease-in;
 }
   
 .l_arm, .r_arm {
